@@ -1,0 +1,118 @@
+/**BASE STYLE**/
+a,
+    a:hover, 
+    a:active,
+    a:visited {
+        color: white;
+
+    }
+    .bg-info,
+    .btn-info{
+       background-color: #0475ba !important;
+   }
+
+/* section*/
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+   
+
+
+/** header**/
+/* ID*/
+#header {
+    background-image: url("../img/header.jpg");
+    background-color: black;
+    min-height: 700px;
+    color:white;
+    padding-top: 160px;
+
+}
+#header p{
+ font-size: 2em;      
+}
+
+#header form {
+background: white;
+color: black;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 10px;
+
+}
+#header button{
+margin-top: 10px;
+
+}
+/**etudiant/ student**/
+#students p{
+color: white;
+margin-top: 100px;
+
+}
+#students img { 
+    border-radius: 5px;
+     
+}
+#team text{
+    padding-top: 100px;
+
+}
+#team img {
+border-radius: 5px;
+ 
+}
+/**team**/
+#team div,
+   section{
+       text-align: center
+   }
+   #team img{
+       height: 100px; width: 100px;
+       border-radius: 50px;
+       margin-bottom: 15px;
+      
+   }
+   #team h6{
+       color: #0475ba
+   }
+   /**pied de page**/
+   footer{
+       padding-top: 60px;
+       padding-bottom: 60px;
+
+}
+.footer-list ul{
+    list-style: none;
+    margin-bottom: 10px;
+    padding-left: 0px;
+
+}
+
+
+   
+   nav{
+       box-shadow: 10px 5px 5px blue;
+   }
+   
+   img{
+    box-shadow: 10px 5px 5px blue;
+
+ 
+}
+
+@font-face {
+    font-family: "Airbnb-Cereal-Book";
+    src: url("../fonts/Airbnb_Cereal-Book.woff2") format("woff2"),
+         url("../fonts/Airbnb_Cereal-Book.woff") format("woff");
+}
+body{
+    font-family: Airbnb-Cereal-Book;
+
+}
+
+  
+
